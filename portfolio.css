@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+ul { 
+  list-style: none;
+}
+
+li { 
+  list-style: none;
+}
+
+a {
+  text-decoration: none;  
+  color: var(--navyblue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.address {
+  font-style: normal;
+}
+:root {
+--iris: #4D5AE5;
+--ocean: #404BBF;
+--navyblue: #2E2F42;
+--green: #31D0AA;
+--slate: #434455;
+--lightslate: #8E8F99;
+--cornflower: #E7E9FC;
+--cloud: #F4F4FD;
+--navybluemodal: #2E2F42;
+--grey: #2E2F42;
+--white: #FFFFFF;
+--dairy: #FCFCFC;
+}
+
+
+
+.header {
+  letter-spacing: .54px;
+  font-weight: 800;
+  line-height: 21px;
+  font-size: 18px;
+  color: var(--iris);
+  background-color: var(--white);
+  border-bottom: 1px solid var(--cornflower);
+  height: 72px;
+}
+.header-menu-container {
+  width: 1440px;
+  height: 72px;
+  color: var(--cornflower);
+  border-bottom: 1px solid var(--cornflower);
+  background: var(--white);
+  display: flex;
+  }
+.nav-menu-logo {
+  color: var(--navybluemodal);
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  font-family: 'Raleway';
+  margin-top: 25.5px;
+  
+}
+.iris {
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px; 
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--iris);
+  width: 44px;
+  margin-left: 156px;
+}
+.nav-list-container,
+.address-list {
+ flex-direction: row;
+ display: inline-block;
+ margin-right: 76px;
+ display: flex;
+}
+.nav-list-link:hover,
+.address-item-link:hover {
+  color: var(--ocean) 
+} 
+.nav-list-link {
+  color: var(--navybluemodal);
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 40px;
+}
+.address-item-link {
+  margin-left: 150px;
+}
+.nav-list-item,
+.address-list-mail,
+.address-list-cta {
+  color: var(--navy-blue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  margin-top: 24px; 
+}
+.portfolio-list-button{
+  display: flex;
+  margin-left: 427px;
+}
+.portfolio-item-button-type {
+  text-transform: capitalize; 
+  border-radius: 4px;
+  background-color: var(--cloud);
+  color: var(--iris);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
+  font-family: inherit;
+  outline: none;
+  cursor: pointer;
+  margin-top: 96px;
+  margin-left: 24px;
+ 
+   
+}
+.button {
+  font-family: inherit;
+  border: unset;
+  outline: none;
+  cursor: pointer;
+  display: inline;
+  box-sizing: border-box;
+  text-indent: 0;
+  text-shadow: 0;
+  text-align: center;
+}
+.portfolio-item-button-type:hover {
+  color: var(--white);
+  border-color: var(--ocean);
+  background: var(--ocean);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.functions-container {
+ background: var(--white);
+  height: 1404px;
+  width: 1440px;
+  display: flex;
+  margin-top: 39px;
+ }
+
+ .functions-list {
+  display: flex;
+  margin-left: 230px;
+  flex-wrap: wrap;
+ }
+.activity {
+  text-align: center;
+  width: calc( (100% - 60px) /3);
+  
+
+
+
+  
+}
+.activity-list {
+  color: var(--navyblue);
+  text-align: left;
+  font-size: 20px;
+ 
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+  margin-left: 16px;
+  background: var(--white);
+}
+.activity-item {
+  color: var(--slate);
+  text-align: left;
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  background: var(--white);
+  margin-left: 16px;
+  
+
+}
+.footer-web-container {
+  background-color: var(--navyblue);
+  color: var(--white);
+  padding: 10px;
+  width: 1440px;
+  height: 312px;
+  }
+  .webstudio-logo {
+    color: var(--cloud);
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    margin-right: 156px;
+    margin-top: 140px;
+  }
+  .webstudio-logo-theme {
+    margin-top: 101.5px;
+  }
+  .webstudio-footer-caption {
+    color: var(--cloud);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    margin-left: 156px;
+    }
+  
+
+
+
+
+
+
