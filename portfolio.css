@@ -82,6 +82,7 @@ gap: 76px;
 .nav-menu-list,
 .contacts {
   display: flex;
+  gap: 40px;
 }
 .nav-menu-link:hover,
 .address-list-link:hover {
@@ -99,7 +100,6 @@ gap: 76px;
 
 .address-list-mail {
   display: inline-block;
- margin-left: 40px;
 }
 .nav-menu-item,
 .address-list-mail {
@@ -112,7 +112,9 @@ gap: 76px;
 }
 .features-list-button {
   display: flex;
-  margin-left: 427px;
+ padding-top: 96px;
+  justify-content: center;
+  column-gap: 24px;
 }
 .features-list-button-type {
   text-transform: capitalize; 
@@ -126,21 +128,13 @@ gap: 76px;
   padding: 12px 24px;
   border: 1px solid var(--cornflower);
   font-family: inherit;
-  outline: none;
-  cursor: pointer;
-  margin-top: 96px;
-  margin-left: 24px;
  }
-.button {
+button {
   font-family: inherit;
   border: unset;
   outline: none;
   cursor: pointer;
-  display: inline;
-  box-sizing: border-box;
-  text-indent: 0;
-  text-shadow: 0;
-  text-align: center;
+ 
 }
 .features-list-button-type:hover {
   color: var(--white);
@@ -161,13 +155,16 @@ gap: 76px;
 }
 .services-title-list {
   display: flex;
-  margin-left: 230px;
   flex-wrap: wrap;
   column-gap: 24px;
   gap: 48px;
-  margin-top: 96px; 
+  justify-content: center;
+  padding-top: 72px;
+  padding-bottom: 120px;
 }
 .services-title-item {
+  text-align: center;
+  display: inline-block;
   text-align: center;
 }
 .service-activity {
@@ -177,7 +174,6 @@ gap: 76px;
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
-  margin-left: 16px;
   background: var(--white);
 }
 .service-line {
@@ -188,8 +184,12 @@ gap: 76px;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   background: var(--white);
-  margin-left: 16px;
-}  
+  margin: 16px auto 0;
+} 
+img {
+  display: block;
+  width: 100%;
+}
 .footer {
   background-color: var(--navyblue);
   color: var(--white);
@@ -205,8 +205,7 @@ gap: 76px;
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-right: 156px;
-  margin-top: 140px;
+  padding-top: 140px;
 }
 .footer-caption {
   color: var(--cloud);
@@ -215,7 +214,8 @@ gap: 76px;
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  padding-top: 17.5px;
 }
-.section-footer {
+.footer {
   padding: 101.5px 0;
 }
