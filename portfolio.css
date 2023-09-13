@@ -159,8 +159,13 @@ button {
   column-gap: 24px;
   gap: 48px;
   justify-content: center;
+  
+}
+
+.services {
   padding-top: 72px;
   padding-bottom: 120px;
+
 }
 .services-title-item {
   text-align: center;
